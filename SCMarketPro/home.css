@@ -1,12 +1,17 @@
 @charset "UTF-8";
 .Logo{
     text-align: center;
-    padding: 80px 40px 0;
+    padding: 80px 50px 0;
+    margin-left: 6%;
+}
+a{
+	text-decoration: none;
 }
 
 .Logo h1{
-    color: crimson;
+    color:gold;
     font-size: 130px;
+    text-decoration: none;
 }
 
 .info_wrapper{
@@ -20,35 +25,40 @@
 
 .info{
     margin: 20px;
-    color: crimson;
+    color: gold;
     font-size: 20px;
 }
 
 .input_box{
-    width: 400px;
+    width: 350px;
+    height:20px;
 }
 
 .btncontainer {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 5vh; 
+    height: 5px; 
 }
 
 .btn{
-    background-color: crimson;
+    background-color: gold;
     padding: 10px 20px;
+    margin-left: 50%;
+    margin-right: auto;
     text-align: center;
-    color: white;
-    border: 2px solid crimson;
+    color: maroon;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid silver;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .btn:hover{
     background-color: white; 
-    color: crimson; 
-    border-color: crimson; 
+    color: maroon; 
+    border-color: silver; 
 }
 
 .block_wrapper{

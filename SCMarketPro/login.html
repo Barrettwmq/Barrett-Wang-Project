@@ -5,19 +5,21 @@
         <link rel="stylesheet" href="home.css">
     </head>
     <body style="background-color: maroon; width: 1400px;">
+		<script src="login.js"></script>
         <div class="Logo">
            <a href="home.html"><h1>SCMarketPro</h1></a>
         </div>
-        <form>
+        <form id="login">
 		   <div class="info_wrapper">
+			   <div id="error" style="display: none;"></div>
 	       		<div class="login_block">
 		       		<label for="USC Email" class="info">USC Email</label>
-		                <input type="text" class="input_box" placeholder="tommytrojan@usc.edu" required>
+		                <input type="text" class="input_box" placeholder="tommytrojan@usc.edu" id="username" required>
 		            </div>
 		
 		            <div class="login_block">
 		                <label for="Password" class="info"> &nbsp &nbspPassword</label>
-		                <input type="text" class="input_box" placeholder="123456..." required>
+		                <input type="text" class="input_box" placeholder="123456..." id="password" required>
 		            </div>
 		        </div>
 	        <button class="btn" type="submit">Login</button>
